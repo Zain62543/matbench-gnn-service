@@ -1,0 +1,37 @@
+# Python virtual environments
+.venv/
+.venv_*/
+venv/
+
+# Python cache
+__pycache__/
+*.py[cod]
+
+# Package and build files
+*.egg-info/
+build/
+dist/
+
+# Testing and linting
+.pytest_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# IDE
+.vscode/
+.idea/
+
+# Generated outputs
+results/
+data/
+*.pt
+*.ckpt
+
+# Environment secrets
+.env
+.env.*
+!.env.example
