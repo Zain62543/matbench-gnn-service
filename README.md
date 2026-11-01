@@ -7,11 +7,13 @@ This project predicts DFT-computed bulk modulus (`matbench_log_kvrh`) and shear 
 [Matbench](https://matbench.materialsproject.org) benchmark so results are directly
 comparable with published numbers.
 
-**Status:** baseline pipeline done; GNN, error analysis and API are in progress (see roadmap).
+**Status:** Initial project setup and feature extraction tests completed. 
+Baseline model evaluation is in progress.
 
 ## Results
 
-Metric: MAE on log10(GPa), mean ± std over the 5 official Matbench folds.
+Metric: MAE in log10(GPa), reported as mean ± standard deviation across
+the 5 official Matbench folds.
 
 | Model | Representation | `log_kvrh` MAE | `log_gvrh` MAE |
 |---|---|---|---|
