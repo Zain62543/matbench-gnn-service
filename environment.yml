@@ -101,4 +101,3 @@ dependencies:
       - uncertainties==3.2.3
       - urllib3==2.6.3
       - zipp==3.23.1
-prefix: /home/zain/miniconda3/envs/matbench39
